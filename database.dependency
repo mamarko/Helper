@@ -1,8 +1,8 @@
 BEGIN:Oracle 11gR2
 	BEGIN:RHEL
 		BEGIN:Kernel
-			fs.aio max nr = 1048576
-			fs.file max = 6815744
+			fs.aio-max-nr = 1048576
+			fs.file-max = 6815744
 			kernel.shmall = 2097152
 			kernel.shmmax = 4294967295
 			kernel.shmmni = 4096
@@ -223,8 +223,8 @@ BEGIN:Oracle 12cR1
 	BEGIN:RHEL
 	
 		BEGIN:Kernel
-			fs.aio max nr = 1048576
-			fs.file max = 6815744
+			fs.aio-max-nr = 1048576
+			fs.file-max = 6815744
 			kernel.shmall = 1073741824
 			kernel.shmmax = 4398046511104
 			kernel.shmmni = 4096
